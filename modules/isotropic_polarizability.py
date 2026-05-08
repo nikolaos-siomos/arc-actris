@@ -341,6 +341,11 @@ def bideau_mehu_larsen_CO2(x):
     """
     
     bideau_mehu_CO2:
+    
+        Original formula corresponds to T = 273.15K (0C), e = 1013.25 hPa (760 torr)
+        
+        Valid in the range 468-2058nm
+    A. Bideau-Mehu, Y. Guern, R. Abjean and A. Johannin-Gilles. Interferometric determination of the refractive index of carbon dioxide in the ultraviolet region. Opt. Commun. 9, 432-434 (1973)
         
 
     """

@@ -1,8 +1,9 @@
-# ARC-ACTRIS
 [![Tests](https://github.com/nikolaos-siomos/arc-actris/actions/workflows/tests.yml/badge.svg)](https://github.com/nikolaos-siomos/arc-actris/actions/workflows/tests.yml)
 [![Docs](https://github.com/nikolaos-siomos/arc-actris/actions/workflows/docs.yml/badge.svg)](https://github.com/nikolaos-siomos/arc-actris/actions/workflows/docs.yml)
 [![Python](https://img.shields.io/badge/python-3.9--3.13-blue.svg)](https://www.python.org/)
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+# ARC-ACTRIS
 ARC-ACTRIS is a Python package for molecular Rayleigh and Raman scattering calculations in atmospheric lidar applications.
 
 Full documentation is available at:

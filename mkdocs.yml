@@ -18,7 +18,6 @@ nav:
   - Installation: installation.md
   - Usage: usage.md
   - API Reference: api.md
-  - References: references.md
 
 markdown_extensions:
   - admonition

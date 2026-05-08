@@ -6,9 +6,10 @@
 
 ARC-ACTRIS is a Python package for molecular Rayleigh and Raman scattering calculations in atmospheric lidar applications.
 
-Full documentation is available at:
-
-https://nikolaos-siomos.github.io/arc-actris/
+## Links
+- Documentation: https://nikolaos-siomos.github.io/arc-actris/
+- Source code: https://github.com/nikolaos-siomos/arc-actris
+- Issue tracker: https://github.com/nikolaos-siomos/arc-actris/issues
 
 ## Installation
 

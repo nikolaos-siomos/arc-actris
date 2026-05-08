@@ -67,10 +67,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/nikolaos-siomos/arc"
-Repository = "https://github.com/nikolaos-siomos/arc"
-Documentation = "https://nikolaos-siomos.github.io/arc/"
-Issues = "https://github.com/nikolaos-siomos/arc/issues"
+Homepage = "https://github.com/nikolaos-siomos/arc-actris"
+Repository = "https://github.com/nikolaos-siomos/arc-actris"
+Documentation = "https://nikolaos-siomos.github.io/arc-actris/"
+Issues = "https://github.com/nikolaos-siomos/arc-actris/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

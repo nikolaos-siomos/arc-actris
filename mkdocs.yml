@@ -2,10 +2,9 @@ site_name: ARC-ACTRIS
 site_description: Algorithm for Rayleigh and Raman Calculations
 site_author: Nikolaos Siomos
 
-repo_url: https://github.com/nikolaos-siomos/arc
-repo_name: nikolaos-siomos/arc
-
-site_url: https://nikolaos-siomos.github.io/arc/
+repo_url: https://github.com/nikolaos-siomos/arc-actris
+repo_name: nikolaos-siomos/arc-actris
+site_url: https://nikolaos-siomos.github.io/arc-actris/
 
 theme:
   name: material

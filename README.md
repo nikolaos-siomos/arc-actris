@@ -2,6 +2,10 @@
 
 ARC-ACTRIS is a Python package for molecular Rayleigh and Raman scattering calculations in atmospheric lidar applications.
 
+Full documentation is available at:
+
+https://nikolaos-siomos.github.io/arc-actris/
+
 ## Installation
 
 From PyPI:
@@ -13,7 +17,7 @@ pip install arc-actris
 Development installation with `venv`:
 
 ```bash
-git clone https://github.com/nikolaos-siomos/arc.git
+git clone https://github.com/nikolaos-siomos/arc-actris.git
 cd arc
 python -m venv .venv
 source .venv/bin/activate
@@ -24,7 +28,7 @@ pytest
 Development installation with Conda:
 
 ```bash
-git clone https://github.com/nikolaos-siomos/arc.git
+git clone https://github.com/nikolaos-siomos/arc-actris.git
 cd arc
 conda create -n arc-actris python=3.11
 conda activate arc-actris
@@ -56,7 +60,11 @@ print(rrb.mldr(mldr_type="full"))
 
 ## Documentation
 
-The full documentation is built with MkDocs.
+Full documentation is available at:
+
+https://nikolaos-siomos.github.io/arc-actris/
+
+Alternatively, it can also be built with MkDocs.
 
 Install the development dependencies first:
 

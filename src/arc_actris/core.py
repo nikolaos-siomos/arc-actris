@@ -1,8 +1,8 @@
 import numpy as np
-from modules.make_gas import N2, O2, Ar, CO2, H2O
-from modules.functions import raman_lines, xsection_polarized
-from modules.filters import get_filter_transmission
-from modules.check_input import check_molar_fractions, check_filter_parameters
+from .modules.make_gas import N2, O2, Ar, CO2, H2O
+from .modules.functions import raman_lines, xsection_polarized
+from .modules.filters import get_filter_transmission
+from .modules.check_input import check_molar_fractions, check_filter_parameters
 
 class arc:
     def __init__(self, incident_wavelength, temperature = 288.15, 

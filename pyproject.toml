@@ -1,17 +1,81 @@
-[tool.poetry]
-name = "arc"
-version = "1.0.0"
-description = ""
-authors = ["nsiomos <nikolaos.siomos@lmu.de>"]
-
-[tool.poetry.dependencies]
-python = ">=3.9,<3.12"
-numpy = ">=1.24.2"
-scipy = ">=1.10.1"
-matplotlib = ">=3.7.1"
-
-[tool.poetry.dev-dependencies]
-
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arc-actris"
+version = "1.1.0"
+description = "Algorithm for Rayleigh and Raman Calculations for atmospheric lidar applications."
+readme = "README.md"
+requires-python = ">=3.9,<3.14"
+license = { text = "AGPL-3.0-only" }
+
+authors = [
+    { name = "Nikolaos Siomos", email = "nikolaos.siomos@lmu.de" },
+    { name = "Ioannis Binietoglou" },
+    { name = "Michael Haimerl" },
+    { name = "Volker Freudenthaler" },
+    { name = "Mariana Adam" },
+    { name = "Giuseppe D'Amico" },
+    { name = "Benedikt Gast" },
+    { name = "Moritz Haarig" },
+    { name = "Ulla Wandinger" },
+]
+
+maintainers = [
+    { name = "Nikolaos Siomos", email = "nikolaos.siomos@lmu.de" }
+]
+
+keywords = [
+    "lidar",
+    "rayleigh",
+    "raman",
+    "atmospheric-science",
+    "actris",
+    "molecular-scattering"
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Physics"
+]
+
+dependencies = [
+    "numpy>=1.24.2",
+    "scipy>=1.10.1",
+    "matplotlib>=3.7.1",
+    "pyparsing>=3.0,<3.3"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "build>=1.2",
+    "twine>=5.0",
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5"
+]
+
+[project.urls]
+Homepage = "https://github.com/nikolaos-siomos/arc"
+Repository = "https://github.com/nikolaos-siomos/arc"
+Documentation = "https://nikolaos-siomos.github.io/arc/"
+Issues = "https://github.com/nikolaos-siomos/arc/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"

@@ -6,14 +6,11 @@ The test is performed using the tabular values found in the referenced paper.
 
 import unittest
 import numpy as np
-from __arc_main__ import arc
-from modules.isotropic_polarizability import alpha_gas
-from modules.anisotropic_polarizability import kings_factor
-from modules.functions import placzek_teller
 
-# Get the data path
-#current_path = os.path.dirname(__file__)
-#data_base_path = os.path.join(current_path, '../data/bucholtz_tabular_values/')
+from arc_actris import arc
+from arc_actris.modules.isotropic_polarizability import alpha_gas
+from arc_actris.modules.anisotropic_polarizability import kings_factor
+from arc_actris.modules.functions import placzek_teller
 
 wavelengths = np.array([355., 532., 1064.])
 

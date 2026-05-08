@@ -1,0 +1,30 @@
+site_name: ARC-ACTRIS
+site_description: Algorithm for Rayleigh and Raman Calculations
+site_author: Nikolaos Siomos
+
+repo_url: https://github.com/nikolaos-siomos/arc
+repo_name: nikolaos-siomos/arc
+
+site_url: https://nikolaos-siomos.github.io/arc/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
+  - References: references.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
